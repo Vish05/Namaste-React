@@ -1,8 +1,6 @@
-**Parcel**
+**Parcel** (Alternative of Webpack and Vite)
 
 Parcel combines a great out-of-the-box development experience with a scalable architecture that can take your project from just getting started to massive production application.
-
-Alternative of Webpack and Vite
 
 - Created A Server
 - HMR - Hot Module Replacement
