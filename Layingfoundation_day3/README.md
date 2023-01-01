@@ -15,7 +15,8 @@
 
 **Reconciliation -** React provides a declarative API so that you don’t have to worry about exactly what changes on every update. This makes writing applications a lot easier, but it might not be obvious how this is implemented within React.
 
-**Keys -** -
+```
+- **Keys -**
 
 <ul>
   <li key="2015">Duke</li>
@@ -27,6 +28,7 @@
   <li key="2015">Duke</li>
   <li key="2016">Villanova</li>
 </ul>
+```
 
 **React.CreateElement -**
 
@@ -42,7 +44,7 @@
 
     - JSX HTML like syntax but it is not HTML inside Javascript
     - babel understading jsx and convert into HTML
-    - JSX is react.createlement behind the scene
+    - JSX is react.createelement behind the scene and react.createelement is object which converted into HTML
     - JSX is created by React
     - JSX is not a package so it is not "import"
     - {} inside bracket we can write any javascript code
