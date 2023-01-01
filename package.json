@@ -1,0 +1,27 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "ReactJS Learnings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vish05/Namaste-React.git"
+  },
+  "author": "Vishal Tanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vish05/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/Vish05/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+CDN - content delivery network
+
+Crossorigin - helps better error handling in react.
+
+Defer - scripts with defer never blocks the page.
+        scripts with defer executes when the DOM is ready(but before the DOMContentLoaded event)
+        DOMContentLoaded only triggeres when script is downloaded and executed.
+        defer maintains the relative order
+        It is igonred if script tag has no src.
+
+Async - async scripts doesn't wait for DOMContentLoaded event or DOMContentLoaded event doesn't wait for async script.
+        It run in load-first order.
+
+rel - defines the relationship between the parent file and external file.
+
+createElement - 
+
