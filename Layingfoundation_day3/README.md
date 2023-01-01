@@ -32,3 +32,29 @@
 
     - React comes for node_modules
     - It is object and the react convert into HTML, puts into DOM
+
+**Bable -**
+
+    - Babel is a JavaScript compiler
+    - Bable take JSX code and gives us HTML code
+
+**JSX - Javascript XML**
+
+    - JSX HTML like syntax but it is not HTML inside Javascript
+    - babel understading jsx and convert into HTML
+    - JSX is react.createlement behind the scene
+    - JSX is created by React
+    - JSX is not a package so it is not "import"
+    - {} inside bracket we can write any javascript code
+    - <Title /> this is known as component composition
+
+**Component**
+
+    - 2 Types ( Functional and Class based component)
+    - Functional Componet - New Way
+    - Class Component - Old way
+
+**Functional Componet**
+
+    - It is javascript function that return some spece of jsx element
+    - Name of component will start with Captical Letter ( but not mandatory)

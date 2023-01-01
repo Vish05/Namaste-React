@@ -13,5 +13,3 @@ Async - async scripts doesn't wait for DOMContentLoaded event or DOMContentLoade
 
 rel - defines the relationship between the parent file and external file.
 
-createElement - 
-
