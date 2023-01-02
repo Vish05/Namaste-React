@@ -1,15 +1,41 @@
-CDN - content delivery network
 
-Crossorigin - helps better error handling in react.
+what is emmet?
+=> It's a plugin most popularly used for text editors which improves HTML & CSS WorkFlow.
 
-Defer - scripts with defer never blocks the page.
-        scripts with defer executes when the DOM is ready(but before the DOMContentLoaded event)
-        DOMContentLoaded only triggeres when script is downloaded and executed.
-        defer maintains the relative order
-        It is igonred if script tag has no src.
+Difference between Library & FrameWork?
+=> Library: We are in charge of the flow of the application. We are choosing when and where to call the library.
+=>Framework: Framework is in charge of the flow It provides some places for you to plug in your code, but it calls the code you plugged in as needed.
 
-Async - async scripts doesn't wait for DOMContentLoaded event or DOMContentLoaded event doesn't wait for async script.
-        It run in load-first order.
+What is CDN? Why do we use it?
+CDN: COntent Delivery Network
+A CDN is a content delivery network. It is a system of distributed servers that deliver content to a user based on their geographic location.
+The benefits of using a CDN in React Js are many. CDNs can improve the performance of your website by reducing the latency of content delivery 
+and by providing a higher level of availability. CDNs can also help to improve the security of your website by providing a distributed denial of 
+service (DDoS) protection.
 
-rel - defines the relationship between the parent file and external file.
+Why React known as React?
+This API reacts to any state or property changes, and works with data of any form (as deeply structured as the graph itself) so I think the name is fitting.
 
+What is crossorigin in script tag?
+=>The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+
+Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+
+A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+CORS is used to manage cross-origin requests.
+
+CORS stands for Cross-Origin Resource Sharing, and is a mechanism that allows resources on a web page to be requested from another domain outside their own domain. It defines a way of how a browser and server can interact to determine whether it is safe to allow the cross-origin request. CORS allows servers to specify who can access the assets on the server, among many other things.
+
+Access-Control-Allow-Origin: * HTTP header. For a better error handling experience in React >= 16.
+
+What is the difference between React and ReactDOM?
+=>React : Responsible for creating views.
+          a global variable for building of ui such as React.createElement()
+=>ReactDOM : Responsible to render UI in the browser.
+             for rendering the components in the browser by injecting them inside the root of DOM, root.render()
+
+What is the difference between react.development.js and react.production.js files via CDN?
+react.development.js => only for development purposes not suitable for production
+
+react.production.js => Minified and optimized production versions of React
