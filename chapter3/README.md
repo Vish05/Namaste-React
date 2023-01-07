@@ -49,6 +49,7 @@
     - JSX is not a package so it is not "import"
     - {} inside bracket we can write any javascript code
     - <Title /> this is known as component composition
+    - Not Madentory in react
 
 **Component**
 
