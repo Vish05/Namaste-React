@@ -64,3 +64,18 @@ API (application programming interface) for analyzing and modifying it using Jav
 
 So our postcssrc file have tailwindcss plugin which means the css code transformation will also be done using
 tailwind plugin instead of just javascript plugin.
+
+### Tailwind CSS
+
+## Pros
+
+1. Easy To debug
+2. Bundle size is small
+3. Faster Development
+4. Give us lot more control
+5. Customize UI
+
+## Cons
+
+1. Too much classes
+2. High Learning Curve

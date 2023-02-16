@@ -1,5 +1,14 @@
 # Assignment 9 Questions
 
+### Notes
+
+1. Chunking
+2. Code Splitting
+3. Dynamic Bundling
+4. Lazy Loading
+5. On Demand Loading
+6. Dynamic Import
+
 ### Ques1. When and why do we need lazy()?
 
 Ans. The React.lazy function lets you render a dynamic import as a regular component.
